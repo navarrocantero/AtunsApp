@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LinuxApp</string>
+    <string name="text_view_distroslist">Distribuciones</string>
+</resources>
