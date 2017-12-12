@@ -1,4 +1,4 @@
-package org.thinway.linuxapp;
+package org.naca.atunsapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
