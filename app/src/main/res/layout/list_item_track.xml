@@ -14,17 +14,17 @@
     android:textSize="30sp"/>
 
   <TextView
-    android:id="@id/text_view_track_name"
+    android:id="@+id/text_view_track_name"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
   <TextView
-    android:id="@id/text_view_track_rating"
+    android:id="@+id/text_view_track_rating"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
   <TextView
-    android:id="@id/text_view_track_bpm"
+    android:id="@+id/text_view_track_bpm"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
 
