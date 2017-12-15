@@ -1,7 +1,8 @@
 
 # Cliente android de [aTunsApp](https://atuns.herokuapp.com/)
 
-![Menu]( https://i.imgur.com/49l1qmh.png)
+![Menu]( https://i.imgur.com/18Fn23H.png)
+
 
 # Instalación
 
@@ -10,4 +11,4 @@ version del proyecto a tu equipo.
  
 Si todo ha salido correctamente deberias tener esto :
 
-![Menu]( https://i.imgur.com/18Fn23H.png)
+![DetailMenu]( https://i.imgur.com/49l1qmh.png)
