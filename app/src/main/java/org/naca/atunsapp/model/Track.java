@@ -7,15 +7,16 @@ import java.io.Serializable;
  */
 
 public class Track implements Serializable {
-public int id;
-public String genre;
-public String name;
-public String artist;
-public String size;
-public String location;
-public String rating;
-public String track_number;
-public String bpm;
+
+  public int id;
+  public String genre;
+  public String name;
+  public String artist;
+  public String size;
+  public String location;
+  public String rating;
+  public String track_number;
+  public String bpm;
   public String created_at;
   public String updated_at;
 

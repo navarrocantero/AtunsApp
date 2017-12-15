@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+
+  android:orientation="vertical"
+  tools:context="org.naca.atunsapp.DetailActivity">
+
+  <TextView
+    android:id="@+id/textView_albumName"
+    android:layout_width="166dp"
+    android:layout_height="25dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="name"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toTopOf="@+id/textView_albumArtist"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView_AlbumImage"/>
+
+
+  <TextView
+    android:id="@+id/textView_albumArtist"
+    android:layout_width="166dp"
+    android:layout_height="26dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="artist"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+
+  <ImageView
+    android:id="@+id/imageView_AlbumImage"
+    android:layout_width="127dp"
+    android:layout_height="148dp"
+    android:layout_weight="4"
+    android:layout_marginTop="24dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:adjustViewBounds="true"
+    android:background="@color/colorPrimaryDark"
+    android:scaleType="fitCenter"
+    android:src="@drawable/ic_launcher_background"
+    android:textColor="@color/white"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/list_view_tracks"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+
+  <!--<LinearLayout-->
+  <!--android:layout_width="match_parent"-->
+  <!--android:layout_height="wrap_content"  >-->
+  <!--<LinearLayout-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:orientation="vertical">-->
+
+  <!--</LinearLayout>-->
+  <!--<LinearLayout-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:gravity="end"-->
+  <!--android:orientation="horizontal">-->
+  <!---->
+  <!--</LinearLayout>-->
+  <!--</LinearLayout>-->
+  <!---->
+  <ListView
+
+    android:id="@+id/list_view_tracks"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/textView_albumName"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0">
+  </ListView>
+</android.support.constraint.ConstraintLayout>

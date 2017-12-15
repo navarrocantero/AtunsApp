@@ -3,4 +3,8 @@
     <string name="text_view_albumList">aTuns</string>
     <string name="URL">https://atuns.herokuapp.com/</string>
     <string name="API">api/</string>
+  <string name="track_name">track_name</string>
+  <string name="track_rating">track_rating</string>
+  <string name="track_bpm">track_bpm</string>
+  <string name="rating">rating</string>
 </resources>
